@@ -109,6 +109,8 @@ Neste caso usaremos uma aplicação feita em Python.
 Na função `obtainAccessTokenPythonUser()` definida embaixo, precisamos passar 4 parámetros, que são aqueles mesmos 4 parámetros que usamos para obter o token usando o curl: usuário e senha do nosso ambiente Viya, e nome e senha do aplicativo registrado.
 
 ```
+import requests
+
 appName = '<nome-do-aplicativo>'
 appPass = '<senha-do-aplicativo>'
 username = '<usuario-viya>'
@@ -130,6 +132,8 @@ def obtainAccessTokenPythonUser(appName, appPass, username, password):
     if r.status_code == 200:
       return r.json()['access_token']
 ```
+Nota: É necessário ter a bibliotéca `requests` instalada no seu ambiente Python.
+
 Se o status da chamada for OK (200), será retornada a string `access token`. Este retorno pode ser armazenado numa varíavel para ser usada toda vez que se faça uma chamada nas APIs REST do SAS Viya.
 
 Você pode encontrar mais informações sobre Autenticação e Registro de Clientes nos seguintes links:
