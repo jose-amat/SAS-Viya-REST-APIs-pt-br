@@ -124,7 +124,7 @@ def obtainAccessTokenPythonUser(appName, appPass, username, password):
 
     data = "grant_type=password&username=" + str(username)+ "&password=" + str(password)
 
-    auth = (str(appName), str(secret)) 
+    auth = (str(appName), str(appPass)) 
 
     r = requests.post(url,headers=headers, data=data, timeout=30, auth = auth, verify=False)
     print(r)
