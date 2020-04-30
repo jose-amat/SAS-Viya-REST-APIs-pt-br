@@ -1,6 +1,6 @@
 SAS Viya REST APIs
 ===================
-As SAS Viya REST APIs, ou de maneira simplifcada APIs do Viya, nada mais são do que APIs do tipo REST, que estão disponibilizadas pelo SAS para toda a comunidade desenvolvendora e para os cientistas de dados que já estão acostumados a trabalhar com ferramentas open source.
+SAS Viya REST APIs, ou de maneira simplifcada API do Viya, nada mais é do que uma API do tipo REST, que é disponibilizada pelo SAS para toda a comunidade desenvolvendora, e para os cientistas de dados que já estão acostumados a trabalhar com ferramentas open source.
 
 De maneira resumida, API (Application Programming Interface) é um sistema responsável pela comunicação entre um cliente e um servidor. REST (Representational State Transfer) é toda API que segue os seguintes padrões, usando o protocolo HTTP:
 
@@ -11,9 +11,9 @@ De maneira resumida, API (Application Programming Interface) é um sistema respo
 5) Code on demand (Opcional)
 
 
-Trabalhar com estas APIs pode dar muita vantagem na hora de usar o SAS em algum processo de negócio, já que com apenas algumas requisições o SAS Viya pode ser integrado em algum serviço web.
+Trabalhar com este conjunto de APIs pode dar muita vantagem na hora de usar o SAS em algum processo de negócio, já que com apenas algumas requisições o SAS Viya pode ser integrado em algum serviço web.
 
-Para o público desenvolvedor e da ciência de dados, as API são a base de diversas bibliotecas capazes de integrar linguagens como Python, Lua, R, e Java, diretamente com o SAS Viya.
+Para o público desenvolvedor e da ciência de dados, as APIs são a base de diversas bibliotecas capazes de integrar linguagens como Python, Lua, R, e Java, diretamente com o SAS Viya.
 
 É por isso que, se você está interessado em entender como funciona esta integração, te convido a continuar lendo este guia prático de como consumir as APIs do Viya em qualquer serviço web.
 
