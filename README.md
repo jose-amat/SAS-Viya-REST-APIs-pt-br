@@ -30,7 +30,7 @@ https://developer.sas.com/apis/rest/
     * [Obtendo um Access Token](#obtendo-um-access-token)
         * [Usando Curl](#usando-curl)
         * [Usando Python](#usando-python)
-    * [Referências](#referencias)
+    * [Referências](#referências)
 # Autenticação e Tokens de Acesso
 
 ## Introdução
